@@ -1,0 +1,27 @@
+{
+  "name": "notemd-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Notemd functionality",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "notemd"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.14.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "axios": "^1.8.4",
+    "fs-extra": "^11.3.0"
+  }
+}
